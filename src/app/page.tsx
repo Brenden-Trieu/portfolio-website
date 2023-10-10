@@ -1,6 +1,4 @@
-//import "../../node_modules/bootstrap";
-
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <button type="button" className="btn btn-outline-primary">
@@ -9,4 +7,6 @@ export default function Home() {
       <p>page start</p>
     </div>
   );
-}
+};
+
+export default Home;
