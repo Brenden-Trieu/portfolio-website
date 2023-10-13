@@ -3,7 +3,7 @@ import styles from "../../styles/linked_icons.module.css";
 const Github = () => {
   return (
     <>
-      <div>
+      <div className={styles.iconBackground}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
