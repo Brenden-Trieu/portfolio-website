@@ -1,0 +1,12 @@
+.introText {
+  text-align: left;
+  color: white;
+  padding: 15px;
+  background-color: black;
+}
+
+.iconTray {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
