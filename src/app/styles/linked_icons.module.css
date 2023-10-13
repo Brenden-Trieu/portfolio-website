@@ -1,0 +1,29 @@
+.linkedIn {
+  color: black;
+  width: 32px;
+  height: 32px;
+}
+
+.linkedIn :hover {
+  color: blue;
+}
+
+.email {
+  color: black;
+  width: 32px;
+  height: 32px;
+}
+
+.email :hover {
+  color: rgb(152, 19, 2);
+}
+
+.github {
+  color: black;
+  width: 32px;
+  height: 32px;
+}
+
+.github :hover {
+  color: white;
+}
