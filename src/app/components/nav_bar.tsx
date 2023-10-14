@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div>
       <div>
-        <a href={"/"}>About Me</a>
+        <link href="aboutMe_section"></link>
       </div>
       <div>
         <a href={"/"}>Projects</a>
