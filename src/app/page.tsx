@@ -11,6 +11,9 @@ const Home = () => {
       <button type="button" className="btn btn-outline-primary">
         Primary
       </button>
+      <a href="../assets/Brenden_Trieu_Resume.pdf" target="_blank">
+        Resume
+      </a>
     </div>
   );
 };
