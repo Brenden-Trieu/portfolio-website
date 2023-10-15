@@ -13,7 +13,10 @@ const NavBar = () => {
         <link href={"projects_section"}></link>
       </div>
       <div>
-        <link href={"resume_link"}></link>
+        <a
+          href="../../assets/imgs/Brenden Trieu Resume.pdf"
+          target="_blank"
+        ></a>
       </div>
     </div>
   );
