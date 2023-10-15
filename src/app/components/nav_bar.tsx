@@ -7,13 +7,13 @@ const NavBar = () => {
   return (
     <div>
       <div>
-        <link href="aboutMe_section"></link>
+        <link href={"aboutMe_section"}></link>
       </div>
       <div>
-        <a href={"/"}>Projects</a>
+        <link href={"projects_section"}></link>
       </div>
       <div>
-        <a href={"/"}>Resume</a>
+        <link href={"resume_link"}></link>
       </div>
     </div>
   );
