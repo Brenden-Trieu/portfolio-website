@@ -4,7 +4,10 @@ const LinkedIn = () => {
   return (
     <>
       <div className={styles.iconBackground}>
-        <a href="https://www.linkedin.com/in/brenden-trieu-968978197/">
+        <a
+          href="https://www.linkedin.com/in/brenden-trieu-968978197/"
+          target="_blank"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
