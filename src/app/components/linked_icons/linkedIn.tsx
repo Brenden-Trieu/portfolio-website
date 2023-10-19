@@ -3,7 +3,7 @@ import styles from "../../styles/linkedIcons.module.css";
 const LinkedIn = () => {
   return (
     <>
-      <div className={styles.iconBackground}>
+      <div className={`${styles.iconBackground} ${styles.linkedIn}`}>
         <a
           href="https://www.linkedin.com/in/brenden-trieu-968978197/"
           target="_blank"
