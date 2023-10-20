@@ -3,7 +3,7 @@ import styles from "../../styles/linkedIcons.module.css";
 const Email = () => {
   return (
     <>
-      <div className={styles.iconBackground}>
+      <div className={`${styles.iconBackground} ${styles.email}`}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
