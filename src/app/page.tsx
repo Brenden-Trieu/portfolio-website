@@ -1,6 +1,7 @@
 import Intro from "./segments/intro";
 import AboutMe from "./segments/aboutMe";
 import Projects from "./segments/projects";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
   return (
