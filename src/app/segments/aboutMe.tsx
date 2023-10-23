@@ -1,8 +1,8 @@
-import styles from "../styles/introSection.module.css";
+import styles from "../styles/aboutMeSection.module.css";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className={styles.section}>
       <h2>About Me</h2>
       <div>
         <p>
