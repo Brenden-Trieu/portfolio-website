@@ -5,7 +5,7 @@ import Github from "../components/linked_icons/Github";
 
 const Intro = () => {
   return (
-    <div>
+    <div className={styles.section}>
       <div className={styles.introText}>
         <h1>Brenden Trieu</h1>
         <h3>Full Stack Developer</h3>
