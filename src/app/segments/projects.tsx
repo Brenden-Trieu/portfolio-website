@@ -1,10 +1,10 @@
-import styles from "../styles/introSection.module.css";
+import styles from "../styles/projectSection.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Projects = () => {
   return (
     <div>
-      <h2>Projects</h2>
+      <h2 className={styles.subheader}>Projects</h2>
       <div className="accordion accordion-flush" id="accordionFlushExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">

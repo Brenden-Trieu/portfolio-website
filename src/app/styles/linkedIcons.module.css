@@ -19,13 +19,14 @@
 }
 
 .email :hover {
-  color: rgb(152, 19, 2);
+  color: blue;
 }
 
 .github {
   color: black;
   width: 32px;
   height: 32px;
+  background-color: black;
 }
 
 .github :hover {

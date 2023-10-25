@@ -12,12 +12,11 @@ const Intro = () => {
       </div>
       <div className={styles.iconTray}>
         <Email />
-      </div>
-      <div className={styles.iconTray}>
         <LinkedIn />
-      </div>
-      <div className={styles.iconTray}>
         <Github />
+        <a href="../assets/Brenden_Trieu_Resume.pdf" target="_blank">
+          Resume
+        </a>
       </div>
     </div>
   );

@@ -16,10 +16,6 @@ const Home = () => {
       <div className="projects">
         <Projects />
       </div>
-
-      <a href="../assets/Brenden_Trieu_Resume.pdf" target="_blank">
-        Resume
-      </a>
     </div>
   );
 };
