@@ -14,7 +14,7 @@ const Intro = () => {
         <Email />
         <LinkedIn />
         <Github />
-        <a href="../assets/Brenden_Trieu_Resume.pdf" target="_blank">
+        <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
           Resume
         </a>
       </div>
