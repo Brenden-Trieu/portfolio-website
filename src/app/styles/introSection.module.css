@@ -7,6 +7,10 @@
 .iconTray {
   display: flex;
   justify-content: flex-start;
+  margin-left: 15px;
+  gap: 10px;
+  background-color: blueviolet;
+  width: fit-content;
 }
 
 .section {
