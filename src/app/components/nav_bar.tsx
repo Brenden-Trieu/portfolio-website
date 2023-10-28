@@ -5,7 +5,7 @@ const NavBar = () => {
   const stickyRef = useRef(null);
 
   return (
-    <div>
+    <div className={styles.sticky}>
       <div>
         <link href={"aboutMe_section"}></link>
       </div>
