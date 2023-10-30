@@ -2,6 +2,7 @@ import styles from "../styles/introSection.module.css";
 import LinkedIn from "../components/linked_icons/LinkedIn";
 import Email from "../components/linked_icons/Email";
 import Github from "../components/linked_icons/Github";
+import NavBar from "../components/nav_bar";
 
 const Intro = () => {
   return (
