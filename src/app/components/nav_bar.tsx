@@ -7,10 +7,10 @@ const NavBar = () => {
   return (
     <div className={styles.sticky}>
       <div>
-        <link href={"aboutMe_section"}></link>
+        <link href={"aboutMe_section"}>About Me</link>
       </div>
       <div>
-        <link href={"projects_section"}></link>
+        <link href={"projects_section"}>Projects</link>
       </div>
       <div>
         <a href="../../assets/imgs/Brenden Trieu Resume.pdf" target="_blank">
