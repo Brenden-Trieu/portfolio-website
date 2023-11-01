@@ -19,6 +19,7 @@ const Intro = () => {
           Resume
         </a>
       </div>
+      <NavBar />
     </div>
   );
 };

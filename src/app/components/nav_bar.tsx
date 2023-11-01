@@ -1,16 +1,13 @@
-import { useEffect, useRef, useState } from "react";
 import styles from "../styles/navBar.module.css";
 
 const NavBar = () => {
-  const stickyRef = useRef(null);
-
   return (
     <div className={styles.sticky}>
       <div>
-        <link href={"aboutMe_section"}>About Me</link>
+        <a href={"aboutMe_section"}>About Me</a>
       </div>
       <div>
-        <link href={"projects_section"}>Projects</link>
+        <a href={"projects_section"}>Projects</a>
       </div>
       <div>
         <a href="../../assets/imgs/Brenden Trieu Resume.pdf" target="_blank">
