@@ -1,3 +1,7 @@
 .subheader {
   color: white;
 }
+
+.section {
+  height: fit-content;
+}

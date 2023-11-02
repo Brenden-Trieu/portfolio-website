@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div className={styles.section}>
       <h2 id="projects_section" className={styles.subheader}>
         Projects
       </h2>

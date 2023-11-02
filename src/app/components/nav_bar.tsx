@@ -10,7 +10,7 @@ const NavBar = () => {
         <a href={"projects_section"}>Projects</a>
       </div>
       <div>
-        <a href="../../assets/imgs/Brenden Trieu Resume.pdf" target="_blank">
+        <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
           Resume
         </a>
       </div>
