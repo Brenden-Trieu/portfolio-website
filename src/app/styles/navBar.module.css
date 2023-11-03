@@ -3,4 +3,10 @@
   top: 0;
   position: sticky;
   opacity: 0.5;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  gap: 75px;
+  background-color: black;
+  width: fit-content;
 }
