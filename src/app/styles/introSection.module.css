@@ -2,14 +2,14 @@
   text-align: left;
   color: white;
   padding: 15px;
+  margin-left: 20px;
 }
 
 .iconTray {
   display: flex;
   justify-content: flex-start;
-  margin-left: 15px;
-  gap: 10px;
-  background-color: black;
+  margin-left: 35px;
+  gap: 35px;
   width: fit-content;
 }
 
