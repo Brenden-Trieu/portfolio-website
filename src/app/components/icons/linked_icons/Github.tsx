@@ -1,4 +1,4 @@
-import styles from "../../styles/linkedIcons.module.css";
+import styles from "../../../styles/linkedIcons.module.css";
 
 const Github = () => {
   return (
