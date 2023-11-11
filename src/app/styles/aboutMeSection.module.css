@@ -4,10 +4,10 @@
 }
 
 .mainContent {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .imgGallary {
-  height: auto;
-  width: auto;
+  max-width: 75vw;
+  max-height: 75vh;
 }
