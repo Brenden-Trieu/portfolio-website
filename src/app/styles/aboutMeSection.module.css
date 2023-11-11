@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.mainContent {
+  flex-direction: row-reverse;
+}
+
 .imgGallary {
   height: auto;
   width: auto;

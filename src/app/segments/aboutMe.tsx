@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div id="aboutMe_section" className={styles.section}>
       <h2>About Me</h2>
-      <div>
+      <div className={styles.mainContent}>
         <p>
           This is the summary of who I am and that Im a full stack developer who
           is always eager to learn new things
