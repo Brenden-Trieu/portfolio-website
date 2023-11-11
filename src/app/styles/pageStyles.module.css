@@ -49,42 +49,42 @@
     ),
     radial-gradient(
       circle at top left,
-      #36345f 10%,
+      #1f1b6a 10%,
       transparent 10%,
       transparent 39%,
-      #36345f 40%,
+      #1f1b6a 40%,
       transparent 41%
     ),
     radial-gradient(
       circle at top right,
-      #36345f 10%,
+      #1f1b6a 10%,
       transparent 10%,
       transparent 39%,
-      #36345f 40%,
+      #1f1b6a 40%,
       transparent 41%
     ),
     radial-gradient(
       circle at bottom left,
-      #36345f 10%,
+      #1f1b6a 10%,
       transparent 10%,
       transparent 39%,
-      #36345f 40%,
+      #1f1b6a 40%,
       transparent 41%
     ),
     radial-gradient(
       circle at bottom right,
-      #36345f 10%,
+      #1f1b6a 10%,
       transparent 10%,
       transparent 39%,
-      #36345f 40%,
+      #1f1b6a 40%,
       transparent 41%
     );
   background-size: 5em 5em;
-  background-color: #ffffff;
+  background-color: #000000;
   opacity: 1;
-}
+} */
 
-.section {
+/* .section {
   background-color: #ffffff;
   opacity: 0.8;
   background-image: radial-gradient(circle at center center, #2d2f65, #ffffff),
