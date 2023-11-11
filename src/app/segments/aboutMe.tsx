@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import styles from "../styles/aboutMeSection.module.css";
 
 const AboutMe = () => {
