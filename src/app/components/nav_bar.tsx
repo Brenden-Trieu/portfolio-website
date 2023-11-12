@@ -17,17 +17,20 @@ const NavBar = () => {
             increaseCount(3);
           }}
         >
-          click pls
+          <a href={"aboutMe_section"}>About Me</a>
         </button>
-        <a href={"aboutMe_section"}>About Me</a>
       </div>
       <div>
-        <a href={"projects_section"}>Projects</a>
+        <button>
+          <a href={"projects_section"}>Projects</a>
+        </button>
       </div>
       <div>
-        <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
-          Resume
-        </a>
+        <button>
+          <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
+            Resume
+          </a>
+        </button>
       </div>
     </div>
   );
