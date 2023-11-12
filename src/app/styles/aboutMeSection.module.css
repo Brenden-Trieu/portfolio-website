@@ -4,10 +4,14 @@
 }
 
 .mainContent {
+  display: flex;
   flex-direction: row;
 }
 
 .imgGallary {
   max-width: 75vw;
   max-height: 75vh;
+}
+
+.listings {
 }

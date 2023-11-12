@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import Intro from "./segments/intro";
 import AboutMe from "./segments/aboutMe";
 import Projects from "./segments/projects";

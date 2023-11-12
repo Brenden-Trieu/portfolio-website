@@ -17,7 +17,7 @@ const AboutMe = () => {
           className={styles.imgGallary}
         ></img>
       </div>
-      <div>
+      <div className={styles.listings}>
         <p>Worked with</p>
       </div>
     </div>

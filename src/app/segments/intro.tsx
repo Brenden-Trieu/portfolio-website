@@ -3,16 +3,8 @@ import LinkedIn from "../components/icons/linked_icons/LinkedIn";
 import Email from "../components/icons/linked_icons/Email";
 import Github from "../components/icons/linked_icons/Github";
 import NavBar from "../components/nav_bar";
-//import React, { useState } from "react";
 
 const Intro = () => {
-  // const [count, setCount] = useState(1);
-
-  // const increaseCount = (increaseAmount: number) => {
-  //   setCount(count + increaseAmount);
-  //   console.log(count);
-  // };
-
   return (
     <div className={styles.section}>
       <div className={styles.introText}>
@@ -26,13 +18,6 @@ const Intro = () => {
         <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
           Resume
         </a>
-        {/* <button
-          onClick={() => {
-            increaseCount(3);
-          }}
-        >
-          click pls
-        </button> */}
       </div>
       <NavBar />
     </div>
