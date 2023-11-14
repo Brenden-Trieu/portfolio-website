@@ -1,4 +1,5 @@
 .introText {
+  font-size: 8dvw;
   text-align: left;
   color: white;
   padding: 15px;
@@ -11,6 +12,7 @@
 }
 
 .iconTray {
+  font-size: 1dvw;
   display: flex;
   justify-content: flex-start;
   margin-left: 5px;
