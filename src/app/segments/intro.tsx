@@ -10,15 +10,16 @@ const Intro = () => {
       <div className={styles.introText}>
         <h1>Brenden Trieu</h1>
         <h3>Full Stack Developer</h3>
+        <div className={styles.iconTray}>
+          <Email />
+          <LinkedIn />
+          <Github />
+          <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
+            Resume
+          </a>
+        </div>
       </div>
-      <div className={styles.iconTray}>
-        <Email />
-        <LinkedIn />
-        <Github />
-        <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
-          Resume
-        </a>
-      </div>
+
       <NavBar />
     </div>
   );
