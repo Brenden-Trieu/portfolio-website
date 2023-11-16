@@ -8,3 +8,10 @@
   height: 32px;
   background-color: black;
 }
+
+.reactIcon {
+  color: black;
+  max-width: 40px;
+  max-height: 40px;
+  background-color: black;
+}

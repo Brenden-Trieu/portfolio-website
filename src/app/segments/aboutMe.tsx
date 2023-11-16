@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import styles from "../styles/aboutMeSection.module.css";
+import ReactIcon from "../components/icons/standard_icons/ReactIcon";
 
 const AboutMe = () => {
   return (
@@ -19,6 +20,7 @@ const AboutMe = () => {
       </div>
       <div className={styles.listings}>
         <p>Worked with</p>
+        <ReactIcon />
       </div>
     </div>
   );

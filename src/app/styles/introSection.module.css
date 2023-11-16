@@ -1,5 +1,4 @@
 .introText {
-  font-size: 8dvw;
   text-align: left;
   color: white;
   padding: 15px;
@@ -11,13 +10,20 @@
   justify-content: center;
 }
 
+.introText h1 {
+  font-size: 5dvw;
+}
+
+.introText h3 {
+  font-size: 2dvw;
+}
+
 .iconTray {
-  /* font-size: 1dvw; */
   display: flex;
-  justify-content: flex-start;
-  margin-left: 5px;
+  justify-content: space-evenly;
   gap: 35px;
-  width: fit-content;
+  min-width: auto;
+  background-color: transparent;
 }
 
 .section {
