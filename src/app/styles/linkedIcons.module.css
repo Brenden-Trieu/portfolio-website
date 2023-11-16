@@ -24,8 +24,9 @@
 
 .github {
   color: #0077b5;
-  width: 1.75dvw;
-  height: 1.75dvh;
+  width: 1.5dvw;
+  height: 1.5dvh;
+  background: transparent;
 }
 
 .github :hover {

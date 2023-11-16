@@ -20,7 +20,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <NavBar />
+      {/* <NavBar /> */}
     </div>
   );
 };
