@@ -3,7 +3,7 @@ import styles from "../../../styles/standardIcons.module.css";
 const JavaScriptIcon = () => {
   return (
     <>
-      <div className={`${styles.iconBackground} ${styles.python}`}>
+      <div className={`${styles.iconBackground} ${styles.otherIcons}`}>
         <a href="brenden.trieu00@gmail.com" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630">
             <rect width="630" height="630" fill="#f7df1e" />

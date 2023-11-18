@@ -6,12 +6,9 @@
   color: black;
   width: 32px;
   height: 32px;
-  background-color: black;
 }
 
-.reactIcon {
-  color: black;
+.otherIcons {
   max-width: 40px;
   max-height: 40px;
-  background-color: black;
 }
