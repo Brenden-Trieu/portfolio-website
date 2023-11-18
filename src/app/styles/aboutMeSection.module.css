@@ -15,10 +15,22 @@
   max-width: 50%;
 }
 
+.titleAndContent {
+  margin-left: 10dvw;
+}
+
+.titleAndContent h2 {
+  padding-top: 2.5dvw;
+}
+
+.titleAndContent p {
+  margin-top: 2.5dvh;
+}
+
 .imgGallary {
   display: block;
-  max-width: 75vw;
-  max-height: 75vh;
+  max-width: 30dvw;
+  max-height: 30dvh;
   margin-left: auto;
   margin-right: auto;
 }
