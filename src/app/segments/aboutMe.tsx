@@ -37,11 +37,11 @@ const AboutMe = () => {
       </div>
       <div className={styles.listings}>
         <ReactIcon />
-        <HTMLIcon />
-        <CSSIcon />
-        <TypeScriptIcon />
         <JavaScriptIcon />
-        {/* <Python /> */}
+        <HTMLIcon />
+        {/* <CSSIcon /> */}
+        {/* <TypeScriptIcon /> */}
+        <Python />
       </div>
     </div>
   );

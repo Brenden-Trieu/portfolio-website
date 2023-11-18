@@ -3,8 +3,8 @@ import styles from "../../../styles/standardIcons.module.css";
 const TypeScriptIcon = () => {
   return (
     <>
-      <div className={`${styles.iconBackground} ${styles.otherIcons}`}>
-        <a href="brenden.trieu00@gmail.com" target="_blank">
+      <div className={`${styles.iconBackground} ${styles.Icons}`}>
+        <a href="https://www.typescriptlang.org/" target="_blank">
           <svg
             fill="none"
             height="512"

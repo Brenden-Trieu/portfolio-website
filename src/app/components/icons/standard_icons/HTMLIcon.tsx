@@ -3,8 +3,8 @@ import styles from "../../../styles/standardIcons.module.css";
 const HTMLIcon = () => {
   return (
     <>
-      <div className={`${styles.iconBackground} ${styles.otherIcons}`}>
-        <a href="brenden.trieu00@gmail.com" target="_blank">
+      <div className={`${styles.iconBackground} ${styles.Icons}`}>
+        <a href="https://www.w3schools.com/html/" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <title>HTML5 Logo Badge</title>
             <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512" />

@@ -3,8 +3,11 @@ import styles from "../../../styles/standardIcons.module.css";
 const CSSIcon = () => {
   return (
     <>
-      <div className={`${styles.iconBackground} ${styles.otherIcons}`}>
-        <a href="brenden.trieu00@gmail.com" target="_blank">
+      <div className={`${styles.iconBackground} ${styles.Icons}`}>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+          target="_blank"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="512"
