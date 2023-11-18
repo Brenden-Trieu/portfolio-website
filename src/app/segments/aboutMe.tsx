@@ -2,6 +2,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import styles from "../styles/aboutMeSection.module.css";
 import ReactIcon from "../components/icons/standard_icons/ReactIcon";
+import HTMLIcon from "../components/icons/standard_icons/HTMLIcon";
+import CSSIcon from "../components/icons/standard_icons/CSSIcon";
+import TypeScriptIcon from "../components/icons/standard_icons/TypeScriptIcon";
+import JavaScriptIcon from "../components/icons/standard_icons/JavaScriptIcon";
+import Python from "../components/icons/standard_icons/Python";
 
 const AboutMe = () => {
   return (
@@ -28,10 +33,15 @@ const AboutMe = () => {
             className={styles.imgGallary}
           ></img>
         </div>
+        <p>Worked with</p>
       </div>
       <div className={styles.listings}>
-        <p>Worked with</p>
         <ReactIcon />
+        <HTMLIcon />
+        <CSSIcon />
+        {/* <TypeScriptIcon />
+        <JavaScriptIcon />
+        <Python /> */}
       </div>
     </div>
   );
