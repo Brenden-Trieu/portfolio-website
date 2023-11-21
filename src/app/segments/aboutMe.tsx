@@ -40,8 +40,8 @@ const AboutMe = () => {
         <JavaScriptIcon />
         <HTMLIcon />
         <CSSIcon />
-        {/* <TypeScriptIcon /> */}
-        {/* <Python /> */}
+        <TypeScriptIcon />
+        <Python />
       </div>
     </div>
   );
