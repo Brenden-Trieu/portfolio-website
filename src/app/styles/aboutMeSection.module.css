@@ -9,7 +9,8 @@
 }
 
 .mainContent p {
-  max-width: 50%;
+  max-width: 45ch;
+  font-size: 24px;
 }
 
 .titleAndContent {

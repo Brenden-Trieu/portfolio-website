@@ -1,5 +1,4 @@
 import styles from "../styles/projectSection.module.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Projects = () => {
   return (

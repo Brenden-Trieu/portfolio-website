@@ -39,9 +39,9 @@ const AboutMe = () => {
         <ReactIcon />
         <JavaScriptIcon />
         <HTMLIcon />
-        {/* <CSSIcon /> */}
+        <CSSIcon />
         {/* <TypeScriptIcon /> */}
-        <Python />
+        {/* <Python /> */}
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ export const metadata = {
 };
 
 import "bootstrap/dist/css/bootstrap.css";
+import Script from "next/script";
 
 export default function RootLayout({
   children,
@@ -13,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+      <Script src="/assets/bootstrap.min.js" />
     </html>
   );
 }
