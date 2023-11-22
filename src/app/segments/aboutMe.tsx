@@ -33,7 +33,7 @@ const AboutMe = () => {
             className={styles.imgGallary}
           ></img>
         </div>
-        <p>Worked with</p>
+        <p className={styles.listTitle}>Worked with</p>
       </div>
       <div className={styles.listings}>
         <ReactIcon />

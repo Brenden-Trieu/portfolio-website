@@ -1,7 +1,11 @@
 .subheader {
   color: white;
+  padding-top: 2.5dvw;
+  padding-bottom: 0.5dvw;
 }
 
 .section {
   height: fit-content;
+  margin-left: 10dvw;
+  margin-right: 10dvw;
 }

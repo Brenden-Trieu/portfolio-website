@@ -37,4 +37,10 @@
   display: flex;
   flex-direction: row;
   margin-left: 10dvw;
+  gap: 0.25dvw;
+}
+
+.listTitle {
+  max-width: 45ch;
+  font-size: 24px;
 }
