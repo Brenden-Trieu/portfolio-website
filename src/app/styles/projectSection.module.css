@@ -9,3 +9,12 @@
   margin-left: 10dvw;
   margin-right: 10dvw;
 }
+
+.exampleImg {
+  display: block;
+  max-width: 40dvw;
+  max-height: 40dvh;
+  margin-top: 2.5dvw;
+  margin-left: auto;
+  margin-right: auto;
+}

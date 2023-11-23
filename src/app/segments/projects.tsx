@@ -57,6 +57,11 @@ const Projects = () => {
               demonstrate the <code>.accordion-flush</code> class. This is the
               second items accordion body. Lets imagine this being filled with
               some actual content.
+              <img
+                src="assets\imgs\Prism Example Pic.png"
+                alt="Prism Page"
+                className={styles.exampleImg}
+              ></img>
             </div>
           </div>
         </div>

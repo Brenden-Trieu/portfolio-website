@@ -4,8 +4,9 @@
 
 .linkedIn {
   color: steelblue;
-  width: 32px;
-  height: 32px;
+  width: 2.5dvw;
+  height: 2.5dvh;
+  background: transparent;
 }
 
 .linkedIn :hover {
@@ -16,6 +17,7 @@
   color: #0077b5;
   width: 2.5dvw;
   height: 2.5dvh;
+  background: transparent;
 }
 
 .email :hover {
@@ -24,8 +26,8 @@
 
 .github {
   color: #0077b5;
-  width: 1.5dvw;
-  height: 1.5dvh;
+  width: 2dvw;
+  height: 2dvh;
   background: transparent;
 }
 
