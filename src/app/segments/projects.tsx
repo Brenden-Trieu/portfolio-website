@@ -6,7 +6,7 @@ const Projects = () => {
       <h2 id="projects_section" className={styles.subheader}>
         Projects
       </h2>
-      <div className="accordion accordion-flush" id="accordionFlushExample">
+      <div className="accordion accordion-flush" id="accordionFlush">
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">
             <button
@@ -24,12 +24,17 @@ const Projects = () => {
             id="flush-collapseOne"
             className="accordion-collapse collapse"
             aria-labelledby="flush-headingOne"
-            data-bs-parent="#accordionFlushExample"
+            data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
               Placeholder content for this accordion, which is intended to
               demonstrate the <code>.accordion-flush</code> class. This is the
               first items accordion body.
+              <img
+                src="assets\imgs\Personal Website Pic.png"
+                alt="Prism Page"
+                className={styles.exampleImg}
+              ></img>
             </div>
           </div>
         </div>
@@ -50,7 +55,7 @@ const Projects = () => {
             id="flush-collapseTwo"
             className="accordion-collapse collapse"
             aria-labelledby="flush-headingTwo"
-            data-bs-parent="#accordionFlushExample"
+            data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
               Placeholder content for this accordion, which is intended to
@@ -82,7 +87,7 @@ const Projects = () => {
             id="flush-collapseThree"
             className="accordion-collapse collapse"
             aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample"
+            data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
               Placeholder content for this accordion, which is intended to
@@ -95,23 +100,23 @@ const Projects = () => {
           </div>
         </div>
         <div className="accordion-item">
-          <h2 className="accordion-header" id="flush-headingThree">
+          <h2 className="accordion-header" id="flush-headingFour">
             <button
               className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
+              data-bs-target="#flush-collapseFour"
               aria-expanded="false"
-              aria-controls="flush-collapseThree"
+              aria-controls="flush-collapseFour"
             >
               Sport: Interactive Chatbot
             </button>
           </h2>
           <div
-            id="flush-collapseThree"
+            id="flush-collapseFour"
             className="accordion-collapse collapse"
-            aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample"
+            aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
               Placeholder content for this accordion, which is intended to

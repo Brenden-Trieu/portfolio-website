@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ffflurry-grad" gradientTransform="rotate(270)"><stop stop-color="hsl(238, 82%, 13%)" stop-opacity="1" offset="0%"></stop><stop stop-color="hsl(1.4, 100%, 67%)" stop-opacity="1" offset="45%"></stop><stop stop-color="hsl(167, 52%, 78%)" stop-opacity="1" offset="100%"></stop></linearGradient></defs><rect width="100%" height="100%" fill="hsl(238, 82%, 13%)"></rect><g fill="url(#ffflurry-grad)"><rect width="221" height="1" x="265.5" y="685.5" rx="0.5" transform="rotate(40, 376, 686)" opacity="0.88"></rect><rect width="136" height="1" x="161" y="417.5" rx="0.5" transform="rotate(40, 229, 418)" opacity="0.29"></rect><rect width="290" height="1" x="539" y="77.5" rx="0.5" transform="rotate(40, 684, 78)" opacity="0.07"></rect><rect width="182" height="1" x="346" y="441.5" rx="0.5" transform="rotate(40, 437, 442)" opacity="0.59"></rect><rect width="559" height="1" x="152.5" y="130.5" rx="0.5" transform="rotate(40, 432, 131)" opacity="0.84"></rect><rect width="134" height="1" x="551" y="584.5" rx="0.5" transform="rotate(40, 618, 585)" opacity="0.82"></rect><rect width="68" height="1" x="711" y="261.5" rx="0.5" transform="rotate(40, 745, 262)" opacity="0.14"></rect><rect width="206" height="1" x="634" y="466.5" rx="0.5" transform="rotate(40, 737, 467)" opacity="0.75"></rect><rect width="199" height="1" x="479.5" y="234.5" rx="0.5" transform="rotate(40, 579, 235)" opacity="0.44"></rect><rect width="230" height="1" x="-49" y="311.5" rx="0.5" transform="rotate(40, 66, 312)" opacity="0.46"></rect><rect width="646" height="1" x="-139" y="119.5" rx="0.5" transform="rotate(40, 184, 120)" opacity="0.70"></rect><rect width="655" height="1" x="-211.5" y="656.5" rx="0.5" transform="rotate(40, 116, 657)" opacity="0.40"></rect><rect width="112" height="1" x="556" y="377.5" rx="0.5" transform="rotate(40, 612, 378)" opacity="0.19"></rect><rect width="311" height="1" x="521.5" y="722.5" rx="0.5" transform="rotate(40, 677, 723)" opacity="0.49"></rect></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ffflurry-grad" gradientTransform="rotate(270)">
+      <stop stop-color="hsl(238, 82%, 13%)" stop-opacity="1" offset="0%"></stop>
+      <stop stop-color="hsl(1.4, 100%, 67%)" stop-opacity="1" offset="45%"></stop>
+      <stop stop-color="hsl(167, 52%, 78%)" stop-opacity="1" offset="100%"></stop>
+    </linearGradient>
+    <filter id="blurFilter" x="0" y="0" width="100%" height="100%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="hsl(238, 82%, 13%)"></rect>
+  <g fill="url(#ffflurry-grad)" filter="url(#blurFilter)">
+    <rect width="221" height="1" x="265.5" y="685.5" rx="0.5" transform="rotate(40, 376, 686)" opacity="0.88"></rect>
+    <rect width="136" height="1" x="161" y="417.5" rx="0.5" transform="rotate(40, 229, 418)" opacity="0.29"></rect>
+    <rect width="290" height="1" x="539" y="77.5" rx="0.5" transform="rotate(40, 684, 78)" opacity="0.07"></rect>
+    <rect width="182" height="1" x="346" y="441.5" rx="0.5" transform="rotate(40, 437, 442)" opacity="0.59"></rect>
+    <rect width="559" height="1" x="152.5" y="130.5" rx="0.5" transform="rotate(40, 432, 131)" opacity="0.84"></rect>
+    <rect width="134" height="1" x="551" y="584.5" rx="0.5" transform="rotate(40, 618, 585)" opacity="0.82"></rect>
+    <rect width="68" height="1" x="711" y="261.5" rx="0.5" transform="rotate(40, 745, 262)" opacity="0.14"></rect>
+    <rect width="206" height="1" x="634" y="466.5" rx="0.5" transform="rotate(40, 737, 467)" opacity="0.75"></rect>
+    <rect width="199" height="1" x="479.5" y="234.5" rx="0.5" transform="rotate(40, 579, 235)" opacity="0.44"></rect>
+    <rect width="230" height="1" x="-49" y="311.5" rx="0.5" transform="rotate(40, 66, 312)" opacity="0.46"></rect>
+    <rect width="646" height="1" x="-139" y="119.5" rx="0.5" transform="rotate(40, 184, 120)" opacity="0.70"></rect>
+    <rect width="655" height="1" x="-211.5" y="656.5" rx="0.5" transform="rotate(40, 116, 657)" opacity="0.40"></rect>
+    <rect width="112" height="1" x="556" y="377.5" rx="0.5" transform="rotate(40, 612, 378)" opacity="0.19"></rect>
+    <rect width="311" height="1" x="521.5" y="722.5" rx="0.5" transform="rotate(40, 677, 723)" opacity="0.49"></rect>
+  </g>
+</svg>
+

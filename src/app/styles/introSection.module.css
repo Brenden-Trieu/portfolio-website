@@ -21,9 +21,13 @@
 .iconTray {
   display: flex;
   justify-content: space-evenly;
-  gap: 35px;
+  gap: 1dvw;
   min-width: auto;
   background-color: transparent;
+}
+
+.iconTray a {
+  font-size: 1dvw;
 }
 
 .section {
