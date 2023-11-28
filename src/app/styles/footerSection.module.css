@@ -1,0 +1,26 @@
+.introText {
+  color: white;
+  padding: 15px;
+  margin-left: 20px;
+  min-height: 10dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.introText h2 {
+  font-size: 1.25dvw;
+}
+
+.iconTray {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1dvw;
+  min-width: auto;
+  background-color: transparent;
+}
+
+.iconTray a {
+  font-size: 1dvw;
+}
