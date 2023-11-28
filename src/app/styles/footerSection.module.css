@@ -10,13 +10,13 @@
 }
 
 .introText h2 {
-  font-size: 1.25dvw;
+  font-size: 1.25vmax;
 }
 
 .iconTray {
   display: flex;
   justify-content: space-evenly;
-  gap: 1dvw;
+  gap: 1vmax;
   min-width: auto;
   background-color: transparent;
 }

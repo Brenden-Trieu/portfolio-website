@@ -3,7 +3,7 @@
 }
 
 .Icons svg {
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 2vmax;
+  max-height: 2vmax;
   width: 100%;
 }

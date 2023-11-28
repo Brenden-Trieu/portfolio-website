@@ -10,7 +10,7 @@
 
 .mainContent p {
   max-width: 45ch;
-  font-size: 1dvw;
+  font-size: 1vmax;
 }
 
 .titleAndContent {
@@ -28,8 +28,8 @@
 .imgGallary {
   display: block;
   max-width: 45dvw;
-  max-height: 45dvh;
-  margin-top: 1.5dvw;
+  max-height: 45dvw;
+  margin-top: 3dvh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,5 +43,5 @@
 
 .listTitle {
   max-width: 45ch;
-  font-size: 24px;
+  font-size: 1vmax;
 }

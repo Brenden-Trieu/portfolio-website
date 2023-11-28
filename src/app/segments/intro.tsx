@@ -2,6 +2,7 @@ import styles from "../styles/introSection.module.css";
 import LinkedIn from "../components/icons/linked_icons/LinkedIn";
 import Email from "../components/icons/linked_icons/Email";
 import Github from "../components/icons/linked_icons/Github";
+import Resume from "../components/icons/linked_icons/Resume";
 import NavBar from "../components/nav_bar";
 
 const Intro = () => {
@@ -14,9 +15,7 @@ const Intro = () => {
           <Email />
           <LinkedIn />
           <Github />
-          <a href="assets/Brenden_Trieu_Resume.pdf" target="_blank">
-            Resume
-          </a>
+          <Resume />
         </div>
       </div>
 

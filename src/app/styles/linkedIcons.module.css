@@ -4,8 +4,8 @@
 
 .linkedIn {
   color: steelblue;
-  width: 1.75dvw;
-  height: 1.75dvw;
+  width: 2vmax;
+  height: 2vmax;
   background: transparent;
 }
 
@@ -15,8 +15,8 @@
 
 .email {
   color: #0077b5;
-  width: 2dvw;
-  height: 2dvw;
+  width: 2vmax;
+  height: 2vmax;
   background: transparent;
 }
 
@@ -26,11 +26,22 @@
 
 .github {
   color: #0077b5;
-  width: 1.75dvw;
-  height: 1.75dvw;
+  width: 2vmax;
+  height: 2vmax;
   background: transparent;
 }
 
 .github :hover {
+  color: blue;
+}
+
+.resume {
+  color: #0077b5;
+  width: 2vmax;
+  height: 2vmax;
+  background: transparent;
+}
+
+.resume :hover {
   color: blue;
 }
