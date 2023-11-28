@@ -27,14 +27,23 @@ const Projects = () => {
             data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              first items accordion body.
-              <img
-                src="assets\imgs\Personal Website Pic.png"
-                alt="Prism Page"
-                className={styles.exampleImg}
-              ></img>
+              <div className={styles.accordionContent}>
+                <p>
+                  A personal project that serves as a showcase of my web
+                  development capabilities. Leveraging Next.js and Bootstrap
+                  elements provides an accessible overview of my identity and
+                  past work.
+                  <br />
+                  <br />
+                  Continuously evolving, the website will feature updates with
+                  new projects to demonstrate and elaborate on my skills.
+                </p>
+                <img
+                  src="assets\imgs\Personal Website Pic.png"
+                  alt="Prism Page"
+                  className={styles.exampleImg}
+                ></img>
+              </div>
             </div>
           </div>
         </div>
@@ -58,15 +67,27 @@ const Projects = () => {
             data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second items accordion body. Lets imagine this being filled with
-              some actual content.
-              <img
-                src="assets\imgs\Prism Example Pic.png"
-                alt="Prism Page"
-                className={styles.exampleImg}
-              ></img>
+              <div className={styles.accordionContent}>
+                <p>
+                  Crafted a video parser and image recognition platform,
+                  allowing users to upload videos and a reference image,
+                  generating a curated array of selectable images exportable to
+                  a CSV file. This file captures both the image ID and
+                  timestamp.
+                  <br />
+                  <br />
+                  The application seamlessly integrates Next.js with Material UI
+                  for the front end and relies on Django for the back end.
+                  Leveraging custom Material UI components, the front end
+                  achieves both reusability and a polished, user-friendly
+                  interface.
+                </p>
+                <img
+                  src="assets\imgs\Prism Example Pic.png"
+                  alt="Prism Page"
+                  className={styles.exampleImg}
+                ></img>
+              </div>
             </div>
           </div>
         </div>
@@ -90,12 +111,19 @@ const Projects = () => {
             data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third items accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
+              <div className={styles.accordionContent}>
+                <p>
+                  An independent university project completed within two months,
+                  employing primarily PHP and jQuery for asynchronous database
+                  searches based on a search filter. The project predominantly
+                  utilizes JavaScript, executing SQL queries to retrieve book
+                  titles.
+                  <br />
+                  <br />
+                  Please note: The project cannot be run as the database is no
+                  longer online, but the code is available for exploration.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -119,12 +147,22 @@ const Projects = () => {
             data-bs-parent="#accordionFlush"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third items accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
+              <div className={styles.accordionContent}>
+                <p>
+                  A collaborative university course project initiated with a
+                  team of four but transitioned to independent work in the final
+                  stages, spanning approximately three months. The project is an
+                  interactive sports-themed chatbot designed using Python. After
+                  collaborating with a team of three, I extended the bot&#39;s
+                  capabilities, enabling multilingual conversations, translation
+                  of phrases, explanations sourced from Wikipedia, and reporting
+                  of sports statistics.
+                  <br />
+                  <br />
+                  Please note: The project is configured in a specific manner
+                  and may require further investigation for successful execution
+                </p>
+              </div>
             </div>
           </div>
         </div>
