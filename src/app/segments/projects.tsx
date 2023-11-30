@@ -1,5 +1,5 @@
 import styles from "../styles/projectSection.module.css";
-
+import Github from "../components/icons/linked_icons/Github";
 const Projects = () => {
   return (
     <div className={styles.section}>
@@ -37,6 +37,14 @@ const Projects = () => {
                   <br />
                   Continuously evolving, the website will feature updates with
                   new projects to demonstrate and elaborate on my skills.
+                  <br />
+                  <br />
+                  <a
+                    href="https://github.com/Brenden-Trieu/portfolio-website"
+                    target="_blank"
+                  >
+                    Click here for the repo
+                  </a>
                 </p>
                 <img
                   src="assets\imgs\Personal Website Pic.png"
@@ -81,6 +89,14 @@ const Projects = () => {
                   Leveraging custom Material UI components, the front end
                   achieves both reusability and a polished, user-friendly
                   interface.
+                  <br />
+                  <br />
+                  <a
+                    href="https://github.com/Rosen-Team-B/Rosen_B_2"
+                    target="_blank"
+                  >
+                    Click here for the repo
+                  </a>
                 </p>
                 <img
                   src="assets\imgs\Prism Example Pic.png"
@@ -122,6 +138,14 @@ const Projects = () => {
                   <br />
                   Please note: The project cannot be run as the database is no
                   longer online, but the code is available for exploration.
+                  <br />
+                  <br />
+                  <a
+                    href="https://github.com/UBCO-COSC-264-Winter-2019-T2/the-project-Brenden-Trieu"
+                    target="_blank"
+                  >
+                    Click here for the repo
+                  </a>
                 </p>
               </div>
             </div>
@@ -161,6 +185,14 @@ const Projects = () => {
                   <br />
                   Please note: The project is configured in a specific manner
                   and may require further investigation for successful execution
+                  <br />
+                  <br />
+                  <a
+                    href="https://github.com/Brenden-Trieu/COSC-310-Individual-Project"
+                    target="_blank"
+                  >
+                    Click here for the repo
+                  </a>
                 </p>
               </div>
             </div>
